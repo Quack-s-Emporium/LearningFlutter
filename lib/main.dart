@@ -20,17 +20,17 @@ class MyApp extends StatelessWidget {
           backgroundColor: Color.fromARGB(255, 153, 32, 32),
         ),
         body: Column(children: [
-          Text('The question!'),
+          Text('Respond this questions!'),
           ElevatedButton(
-            child: Text('Answer 1'),
+            child: Text('Do you like burritos?'),
             onPressed: () {},
           ),
           ElevatedButton(
-            child: Text('Answer 2'),
+            child: Text('Who are you?'),
             onPressed: null,
           ),
           ElevatedButton(
-            child: Text('Answer 3'),
+            child: Text('Why we still here'),
             onPressed: null,
           ),
         ]),
